@@ -1,0 +1,147 @@
+body {
+  background: #bbb;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+#title {
+  width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 28px;
+  color: rgb(49, 160, 4);
+}
+
+main {
+  width: 400px;
+  outline: solid 4px #fff;
+  border-radius: 8px;
+  margin: 64px auto 32px;
+  padding: 24px 24px 18px;
+  background: #eee;
+  display: flex;
+  justify-content: space-between;
+}
+
+section + section {
+  margin-bottom: 12px;
+}
+
+section > img {
+  width: 120px;
+  height: 160px;
+}
+
+.stop {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  padding: 8px;
+  border-radius: 22px;
+  background: rgb(251, 10, 10);
+  box-shadow: 0 4px 0 rgb(205, 14, 14);
+  margin: 12px auto 0;
+  user-select: none;
+  cursor: pointer;
+}
+
+#spin {
+  font-weight: bold;
+  font-size: 20px;
+  width: 300px;
+  text-align: center;
+  color: #fff;
+  padding: 8px;
+  border-radius: 22px;
+  background: rgb(41, 106, 236);
+  box-shadow: 0 4px 0 rgb(12, 51, 195);
+  margin: 12px auto 0;
+  user-select: none;
+  cursor: pointer;
+}
+
+.unmatch,
+.inactive {
+  opacity: 0.5;
+}
+
+#con {
+  font-weight: bold;
+  color: aqua;
+  font-size: 80px;
+  position: fixed;
+  right: 70px;
+  left: auto;
+  top: 40px;
+  bottom: 600px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+#con.show {
+  opacity: 1;
+}
+
+/* back */
+
+* { background:#C0DEED}
+#awan {
+position:fixed;
+top:0px;left:0px;
+width:100%;
+height:100%;
+text-align:center;
+margin:0px;
+padding:0px;
+background-color:#C0DEED;
+background: url(https://abs.twimg.com/images/themes/theme1/bg.png) center top repeat-x;
+padding-top:100px;
+padding-bottom:10px;
+  width: 100%;
+  height: 135px;
+  animation: awan-animasi 10s linear infinite;
+  -ms-animation: awan-animasi 10s linear infinite;
+  -moz-animation: awan-animasi 10s linear infinite;
+  -webkit-animation: awan-animasi 10s linear infinite;
+}
+
+@keyframes awan-animasi {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 100% 0;
+  };
+}
+
+@-webkit-keyframes awan-animasi {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 100% 0;
+  };
+}
+
+@-ms-keyframes awan-animasi {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 100% 0;
+  };
+}
+
+@-moz-keyframes awan-animasi {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 100% 0;
+  };
+}
