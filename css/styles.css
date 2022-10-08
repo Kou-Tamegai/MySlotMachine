@@ -1,40 +1,39 @@
 body {
-  background: #bbb;
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
 }
 
 #title {
-  width: 600px;
+  width: 60vw;
   text-align: center;
   margin: 0 auto;
-  font-size: 28px;
+  font-size: 100%;
   color: rgb(49, 160, 4);
 }
 
 main {
-  width: 400px;
+  width: 300px;
   outline: solid 4px #fff;
   border-radius: 8px;
-  margin: 64px auto 32px;
-  padding: 24px 24px 18px;
-  background: #eee;
+  margin: 5vh auto 4vh;
+  padding: 2vw;
+  background: #C0DEED;
   display: flex;
   justify-content: space-between;
 }
 
 section + section {
-  margin-bottom: 12px;
+  margin-bottom: 3vh;
 }
 
 section > img {
-  width: 120px;
-  height: 160px;
+  width: 80px;
+  height: 110px;
 }
 
 .stop {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 14px;
   text-align: center;
   color: #fff;
   padding: 8px;
@@ -66,22 +65,6 @@ section > img {
   opacity: 0.5;
 }
 
-#con {
-  font-weight: bold;
-  color: aqua;
-  font-size: 80px;
-  position: fixed;
-  right: 70px;
-  left: auto;
-  top: 40px;
-  bottom: 600px;
-  opacity: 0;
-  transition: opacity 0.5s;
-}
-
-#con.show {
-  opacity: 1;
-}
 
 /* back */
 
